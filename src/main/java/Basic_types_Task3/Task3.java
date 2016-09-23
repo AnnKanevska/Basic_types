@@ -1,8 +1,8 @@
-package Basic_types_Task3;
+package basic_types_Task3;
 
 import java.util.Scanner;
 
-import Basic_types_Task2.Task2;
+import basic_types_Task2.Task2;
 
 public class Task3 {
 	public static void main(String[] args) {
@@ -96,37 +96,37 @@ public class Task3 {
 	}
 	//объем цилиндра
 	public static double cylinderVolume (double h, double r){
-		double cylindervolume= Basic_types_Task2.Task2.circlearea(r)*h;
+		double cylindervolume= basic_types_Task2.Task2.circlearea(r)*h;
 		return cylindervolume;
 	}
 	//объем полого цилиндра
 	public static double hollowCylinderVolume (double h, double rout, double rin){
-		double cylindervolume= Basic_types_Task2.Task2.ringarea(rout,rin)*h;
+		double cylindervolume= basic_types_Task2.Task2.ringarea(rout,rin)*h;
 		return cylindervolume;
 	}
 	//площадь боковой поверхности цилиндра
 	public static double surfaceArea (double h, double r){
-		double cylindervolume= Basic_types_Task2.Task2.circumference(r)*h;
+		double cylindervolume= basic_types_Task2.Task2.circumference(r)*h;
 		return cylindervolume;
 	}
 	//объем шара
 	public static double sphereVolume ( double r){
-		double spherearea= Basic_types_Task2.Task2.circlearea(r)*(4.0/3.0)*r;
+		double spherearea= basic_types_Task2.Task2.circlearea(r)*(4.0/3.0)*r;
 		return spherearea;
 	}
 	//площадь поверхности шара
 	public static double sphereSurfaceArea(double r){
-		double sphereSurfaceArea= Basic_types_Task2.Task2.circlearea(r)*4.0;
+		double sphereSurfaceArea= basic_types_Task2.Task2.circlearea(r)*4.0;
 		return sphereSurfaceArea;
 	}
 	//объем прямоуольного параллелепипеда
 	public static double parallelepipedVolume ( double a,double b,double c){
-		double parallelepipedVolume= Basic_types_Task2.Task2.rectanglearea(a,b)*c;
+		double parallelepipedVolume= basic_types_Task2.Task2.rectanglearea(a,b)*c;
 		return parallelepipedVolume;
 	}
 	//площадь параллелепипеда
 	public static double parallelepipedSurfaceArea ( double a,double b,double c){
-		double parallelepipedArea= Basic_types_Task2.Task2.rectangleperimeter(a,b)*c+2*Basic_types_Task2.Task2.rectanglearea(a,b);
+		double parallelepipedArea= basic_types_Task2.Task2.rectangleperimeter(a,b)*c+2*basic_types_Task2.Task2.rectanglearea(a,b);
 		return parallelepipedArea;
 	}
 	//объем тераэдра

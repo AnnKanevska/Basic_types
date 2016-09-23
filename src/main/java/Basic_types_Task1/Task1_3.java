@@ -1,4 +1,4 @@
-package Basic_types_Task1;
+package basic_types_Task1;
 
 import java.util.Scanner;
 

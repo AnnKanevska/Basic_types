@@ -1,4 +1,4 @@
-package Basic_types_Task1;
+package basic_types_Task1;
 
 public class Task1_2 {
 	public static void main(String[] args) {
